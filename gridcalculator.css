@@ -1,0 +1,63 @@
+.alldivs {
+  display: grid;
+  grid-template-columns: 40px 40px 40px 40px;
+  grid-template-rows: 20px 20px 20px 20px 20px 20px;
+  grid-template-areas:
+    "display display display display"
+    "number9 number8 number7 buttonmult"
+    "number6 number5 number4 buttonsub"
+    "number3 number2 number1 buttonadd"
+    "number0 comma clear buttondiv"
+    "equal equal equal equal";
+}
+#display {
+  grid-area: display;
+}
+.number0 {
+  grid-area: number0;
+}
+.number1 {
+  grid-area: number1;
+}
+.number2 {
+  grid-area: number2;
+}
+.number3 {
+  grid-area: number3;
+}
+.number4 {
+  grid-area: number4;
+}
+.number5 {
+  grid-area: number5;
+}
+.number6 {
+  grid-area: number6;
+}
+.number7 {
+  grid-area: number7;
+}
+.number8 {
+  grid-area: number8;
+}
+.number9 {
+  grid-area: number9;
+}
+.equal {
+  grid-area: equal;
+}
+.comma {
+  grid-area: comma;
+}
+.buttondiv {
+  grid-area: buttondiv;
+}
+.buttonadd {
+  grid-area: buttonadd;
+}
+.buttonmult {
+  grid-area: buttonmult;
+}
+.buttonsub {
+  grid-area: buttonsub;
+}
